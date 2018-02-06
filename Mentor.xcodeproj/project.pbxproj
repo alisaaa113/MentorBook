@@ -14,6 +14,10 @@
 		0BB912D0202914F40043FEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB912CE202914F40043FEA4 /* LaunchScreen.storyboard */; };
 		0BB912DB202914F40043FEA4 /* MentorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB912DA202914F40043FEA4 /* MentorTests.swift */; };
 		0BB912E6202914F40043FEA4 /* MentorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB912E5202914F40043FEA4 /* MentorUITests.swift */; };
+		0BB912F7202915ED0043FEA4 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BB912F4202915ED0043FEA4 /* ryo.jpg */; };
+		0BB912F8202915ED0043FEA4 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BB912F5202915ED0043FEA4 /* nagata.jpg */; };
+		0BB912F9202915ED0043FEA4 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BB912F6202915ED0043FEA4 /* taithi.JPG */; };
+		0BB912FB20292EA30043FEA4 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB912FA20292EA30043FEA4 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0BB912E1202914F40043FEA4 /* MentorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB912E5202914F40043FEA4 /* MentorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorUITests.swift; sourceTree = "<group>"; };
 		0BB912E7202914F40043FEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB912F4202915ED0043FEA4 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		0BB912F5202915ED0043FEA4 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		0BB912F6202915ED0043FEA4 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		0BB912FA20292EA30043FEA4 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		0BB912C4202914F40043FEA4 /* Mentor */ = {
 			isa = PBXGroup;
 			children = (
+				0BB912F3202915ED0043FEA4 /* images2 */,
 				0BB912C5202914F40043FEA4 /* AppDelegate.swift */,
 				0BB912C7202914F40043FEA4 /* ViewController.swift */,
 				0BB912C9202914F40043FEA4 /* Main.storyboard */,
 				0BB912CC202914F40043FEA4 /* Assets.xcassets */,
 				0BB912CE202914F40043FEA4 /* LaunchScreen.storyboard */,
 				0BB912D1202914F40043FEA4 /* Info.plist */,
+				0BB912FA20292EA30043FEA4 /* Mentor.swift */,
 			);
 			path = Mentor;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				0BB912E7202914F40043FEA4 /* Info.plist */,
 			);
 			path = MentorUITests;
+			sourceTree = "<group>";
+		};
+		0BB912F3202915ED0043FEA4 /* images2 */ = {
+			isa = PBXGroup;
+			children = (
+				0BB912F4202915ED0043FEA4 /* ryo.jpg */,
+				0BB912F5202915ED0043FEA4 /* nagata.jpg */,
+				0BB912F6202915ED0043FEA4 /* taithi.JPG */,
+			);
+			path = images2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB912F7202915ED0043FEA4 /* ryo.jpg in Resources */,
+				0BB912F8202915ED0043FEA4 /* nagata.jpg in Resources */,
+				0BB912F9202915ED0043FEA4 /* taithi.JPG in Resources */,
 				0BB912D0202914F40043FEA4 /* LaunchScreen.storyboard in Resources */,
 				0BB912CD202914F40043FEA4 /* Assets.xcassets in Resources */,
 				0BB912CB202914F40043FEA4 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB912FB20292EA30043FEA4 /* Mentor.swift in Sources */,
 				0BB912C8202914F40043FEA4 /* ViewController.swift in Sources */,
 				0BB912C6202914F40043FEA4 /* AppDelegate.swift in Sources */,
 			);
